@@ -1,0 +1,20 @@
+@EmployeeCrud_HostAddress = http://localhost:5149
+
+GET {{EmployeeCrud_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+
+# get employee
+# GET {{EmployeeCrud_HostAddress}}/employee/
+# Accept: application/json
+
+
+# Add employee
+# POST {{EmployeeCrud_HostAddress}}/employee/add-employee
+# Accept: application/json
+
+
+# Update Employee
+# PUT {{EmployeeCrud_HostAddress}}/employee/{id}
